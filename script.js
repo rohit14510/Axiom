@@ -105,3 +105,19 @@
   });
 
 
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#client-slider', {
+      type: 'loop',
+      perPage: 5,
+      autoplay: true,
+      interval: 1000,
+      pauseOnHover: true,
+      arrows: false,
+      pagination: false,
+      breakpoints: {
+        991: {
+          perPage: 2,
+        },
+      },
+    }).mount();
+  });

@@ -428,6 +428,14 @@ header .sticky .logo-img img {
       text-transform: uppercase;
       margin-bottom: 15px;
     }
+      .left-border-dark {
+      border-left: 3px solid #000;
+      padding-left: 15px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
 
     .acme-section h2 {
       font-size: 42px;
@@ -607,7 +615,15 @@ header .sticky .logo-img img {
       padding-left: 10px;
       margin-bottom: 10px;
     }
-
+ .business-title-dark {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #000;
+      border-left: 3px solid #000;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
     .business-heading {
       font-size: 1.5rem;
       font-weight: 700;
@@ -734,14 +750,17 @@ header .sticky .logo-img img {
      }
 /* //Product Section End// */
 /* //Client Section Start// */
-    .client {
-    padding: 2rem;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+
+   .client {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .client img {
+    max-height: 80px;
+    object-fit: contain;
+    display: inline-block;
+  }
     /* //Client Section End// */
 
   /* //About Page Start// */
