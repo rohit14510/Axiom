@@ -414,6 +414,25 @@ header .sticky .logo-img img {
   .btn-red:hover {
     background-color: #0E7DC2 ;
   }
+  .Slider-img-container{
+    overflow: hidden;
+  }
+  /* CSS */
+.slider-img {
+  animation: scaleImage 3s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+
+/* Keyframes for scaling */
+@keyframes scaleImage {
+  0% {
+    transform: scale(.8);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
 /* //About Section Start// */
     .acme-section {
       color: white;
