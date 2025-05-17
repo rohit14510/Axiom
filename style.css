@@ -388,50 +388,32 @@ header .sticky .logo-img img {
 }
 
 /* ----header-section-end---- */
+/* ----Hero-Section-Start---- */
 
+.hero-section .hero-slide {
+  padding: 140px 0px;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.418), #0E7DC29e), url(assets/img-1.webp);
+  background-size: cover;
+  background-position: center;
 
-
-  .slide-content {
-    padding: 30px;
-    text-align: start;
-    color: #fff;
-  }
-
-  .btn-red {
-    background-color: #0E7DC2 ;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 15px;
-    cursor: pointer;
-  }
-
-  .btn-red a {
-    color: white;
-    text-decoration: none;
-  }
-
-  .btn-red:hover {
-    background-color: #0E7DC2 ;
-  }
-  .Slider-img-container{
-    overflow: hidden;
-  }
-  /* CSS */
-.slider-img {
-  animation: scaleImage 3s ease-in-out infinite alternate;
-  transform-origin: center;
 }
 
-/* Keyframes for scaling */
-@keyframes scaleImage {
-  0% {
-    transform: scale(.8);
-  }
-  100% {
-    transform: scale(1.5);
-  }
+.hero-slide .hero-box h2 {
+  font-size: 40px;
+  font-weight: 700;
 }
+
+.hero-box .sec-btn {
+  margin-top: 0px;
+}
+
+/* ----Hero-Section-End---- */
+
+
+
+ 
 
 /* //About Section Start// */
     .acme-section {
@@ -1330,3 +1312,6 @@ header .sticky .logo-img img {
 }
 
 /*---thank-Section-end----*/
+
+
+

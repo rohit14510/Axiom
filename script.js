@@ -1,5 +1,19 @@
+  $('.hero-section').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  }).slickAnimation({
+    animate__delay: 5,
+  });
 
-  new Splide('#splide', {
+
+
+
+ 
+ 
+ new Splide('#splide', {
     type   : 'loop',
     perPage: 1,
     autoplay: true,
