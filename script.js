@@ -17,13 +17,12 @@
     }).mount();
   });
   
-
   document.addEventListener('DOMContentLoaded', function () {
     new Splide('#desktop-slider', {
       type       : 'loop',
       perPage    : 1,
       perMove    : 1,
-      autoplay   : true,
+      autoplay   : false,
       interval   : 2000,
       pauseOnHover: true,
       arrows     : true,

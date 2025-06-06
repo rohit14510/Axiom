@@ -390,6 +390,10 @@ header .sticky .logo-img img {
 /* ----header-section-end---- */
 /* ----Hero-Section-Start---- */
 
+.desktop-slider-container img{
+  width: 100vw;
+}
+
 /* .hero-slide {
   padding: 120px 0px;
   text-align: center;
