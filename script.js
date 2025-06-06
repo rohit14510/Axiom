@@ -18,6 +18,31 @@
   });
   
 
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#desktop-slider', {
+      type       : 'loop',
+      perPage    : 1,
+      perMove    : 1,
+      autoplay   : true,
+      interval   : 2000,
+      pauseOnHover: true,
+      arrows     : true,
+      pagination : true,
+      breakpoints: {
+        1024: {
+          perPage: 3,
+        },
+        768: {
+          perPage: 2,
+        },
+        480: {
+          perPage: 1,
+        },
+      },
+    }).mount();
+  });
+
+
 
 
 //  new Splide('#splide', {
